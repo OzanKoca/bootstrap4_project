@@ -1,0 +1,50 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), 
+                url('https://source.unsplash.com/1600x900/?smartphone,technology') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.phone-card {
+    background: linear-gradient(to right, #2196F3, #E91E63);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.phone-card:hover {
+    transform: scale(1.05);
+}
+
+.spec-box {
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.spec-box:hover {
+    background: #1d7331;
+}
+
+.bg-dark {
+    background-color: #222 !important;
+}
